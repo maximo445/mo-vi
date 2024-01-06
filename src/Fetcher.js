@@ -1,5 +1,3 @@
-console.log(process.env.API_KEY);
-
 class Fetcher {
 
     constructor() {
