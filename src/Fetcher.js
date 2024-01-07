@@ -1,3 +1,5 @@
+require('dotenv-webpack').config();
+
 class Fetcher {
 
     constructor() {
