@@ -29,6 +29,7 @@ class App {
                 this.ui.isSelected('movie'); 
                 break;
             case '/shows.html':
+            case '/shows':
                 this.ui.displayPopularShows();
                 this.ui.isSelected('tv');
                 break;
