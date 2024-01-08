@@ -1,11 +1,11 @@
-require('dotenv-webpack').config();
+// require('dotenv-webpack').config();
 
 class Fetcher {
 
     constructor() {
         
-        // this._key = '3bf00ace9a6286886a6fd8b94eb32f49';
-        this._key = process.env.API_KEY;
+        this._key = '3bf00ace9a6286886a6fd8b94eb32f49';
+        // this._key = process.env.API_KEY;
 
         this._urls = {
             popularMovies: `https://api.themoviedb.org/3/movie/popular?api_key=${this._key}`,
